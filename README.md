@@ -16,7 +16,7 @@ This repository contains the following files and directories:
 * [MATLAB 2022b & Simulink](https://www.mathworks.com/products/matlab.html) - Design of the vector control algorithm and general understanding of FOC
 
 ### 🛠️ HW
-* [Altium Designer](www.https://www.altium.com/es/altium-designer/) - Schematics and PCB
+* [Altium Designer](www.https://www.altium.com/es/altium-designer) - Schematics and PCB
 
 ### 💾 SW
 * [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) - IDE for STM32 MCUs
