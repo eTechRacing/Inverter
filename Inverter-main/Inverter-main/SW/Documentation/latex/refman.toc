@@ -1,0 +1,485 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Data Structure Index}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Data Structures}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}File Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}File List}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Data Structure Documentation}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Analog Struct Reference}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Detailed Description}{5}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Field Documentation}{5}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}currentOffsets}{5}{subsubsection.3.1.2.1}%
+\contentsline {subsubsection}{\numberline {3.1.2.2}ia}{5}{subsubsection.3.1.2.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.3}ib}{6}{subsubsection.3.1.2.3}%
+\contentsline {subsubsection}{\numberline {3.1.2.4}ic}{6}{subsubsection.3.1.2.4}%
+\contentsline {subsubsection}{\numberline {3.1.2.5}vDC}{6}{subsubsection.3.1.2.5}%
+\contentsline {section}{\numberline {3.2}CANMessage\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Info Struct Reference}{6}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Field Documentation}{6}{subsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.1}DLC}{6}{subsubsection.3.2.1.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.2}getSig}{6}{subsubsection.3.2.1.2}%
+\contentsline {subsubsection}{\numberline {3.2.1.3}ID}{7}{subsubsection.3.2.1.3}%
+\contentsline {subsubsection}{\numberline {3.2.1.4}IDE}{7}{subsubsection.3.2.1.4}%
+\contentsline {section}{\numberline {3.3}Duties Struct Reference}{7}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Detailed Description}{7}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Field Documentation}{7}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}Da}{7}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.3.2.2}Db}{7}{subsubsection.3.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.3}Dc}{8}{subsubsection.3.3.2.3}%
+\contentsline {section}{\numberline {3.4}Encoder Struct Reference}{8}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Detailed Description}{8}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Field Documentation}{8}{subsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.2.1}A}{8}{subsubsection.3.4.2.1}%
+\contentsline {subsubsection}{\numberline {3.4.2.2}B}{8}{subsubsection.3.4.2.2}%
+\contentsline {subsubsection}{\numberline {3.4.2.3}cosTheta\_e}{9}{subsubsection.3.4.2.3}%
+\contentsline {subsubsection}{\numberline {3.4.2.4}directionMeas}{9}{subsubsection.3.4.2.4}%
+\contentsline {subsubsection}{\numberline {3.4.2.5}sinTheta\_e}{9}{subsubsection.3.4.2.5}%
+\contentsline {subsubsection}{\numberline {3.4.2.6}theta\_e}{9}{subsubsection.3.4.2.6}%
+\contentsline {subsubsection}{\numberline {3.4.2.7}we}{9}{subsubsection.3.4.2.7}%
+\contentsline {subsubsection}{\numberline {3.4.2.8}Z}{9}{subsubsection.3.4.2.8}%
+\contentsline {section}{\numberline {3.5}Feedback Struct Reference}{9}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Detailed Description}{10}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Field Documentation}{10}{subsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.2.1}idMeas}{10}{subsubsection.3.5.2.1}%
+\contentsline {subsubsection}{\numberline {3.5.2.2}iqMeas}{10}{subsubsection.3.5.2.2}%
+\contentsline {subsubsection}{\numberline {3.5.2.3}speedMeas}{10}{subsubsection.3.5.2.3}%
+\contentsline {subsubsection}{\numberline {3.5.2.4}torqueCalc}{10}{subsubsection.3.5.2.4}%
+\contentsline {section}{\numberline {3.6}Inverter\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Struct Struct Reference}{11}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Detailed Description}{11}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Field Documentation}{12}{subsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.2.1}analog}{12}{subsubsection.3.6.2.1}%
+\contentsline {subsubsection}{\numberline {3.6.2.2}direction}{12}{subsubsection.3.6.2.2}%
+\contentsline {subsubsection}{\numberline {3.6.2.3}duties}{12}{subsubsection.3.6.2.3}%
+\contentsline {subsubsection}{\numberline {3.6.2.4}enable}{12}{subsubsection.3.6.2.4}%
+\contentsline {subsubsection}{\numberline {3.6.2.5}enable\_pin}{12}{subsubsection.3.6.2.5}%
+\contentsline {subsubsection}{\numberline {3.6.2.6}enable\_port}{12}{subsubsection.3.6.2.6}%
+\contentsline {subsubsection}{\numberline {3.6.2.7}enableSW}{12}{subsubsection.3.6.2.7}%
+\contentsline {subsubsection}{\numberline {3.6.2.8}encoder}{13}{subsubsection.3.6.2.8}%
+\contentsline {subsubsection}{\numberline {3.6.2.9}errors}{13}{subsubsection.3.6.2.9}%
+\contentsline {subsubsection}{\numberline {3.6.2.10}feedback}{13}{subsubsection.3.6.2.10}%
+\contentsline {subsubsection}{\numberline {3.6.2.11}hadc}{13}{subsubsection.3.6.2.11}%
+\contentsline {subsubsection}{\numberline {3.6.2.12}htim}{13}{subsubsection.3.6.2.12}%
+\contentsline {subsubsection}{\numberline {3.6.2.13}idLoop}{13}{subsubsection.3.6.2.13}%
+\contentsline {subsubsection}{\numberline {3.6.2.14}iqLoop}{13}{subsubsection.3.6.2.14}%
+\contentsline {subsubsection}{\numberline {3.6.2.15}led}{13}{subsubsection.3.6.2.15}%
+\contentsline {subsubsection}{\numberline {3.6.2.16}motor}{14}{subsubsection.3.6.2.16}%
+\contentsline {subsubsection}{\numberline {3.6.2.17}reference}{14}{subsubsection.3.6.2.17}%
+\contentsline {subsubsection}{\numberline {3.6.2.18}speedLoop}{14}{subsubsection.3.6.2.18}%
+\contentsline {subsubsection}{\numberline {3.6.2.19}state}{14}{subsubsection.3.6.2.19}%
+\contentsline {subsubsection}{\numberline {3.6.2.20}tempInverter}{14}{subsubsection.3.6.2.20}%
+\contentsline {subsubsection}{\numberline {3.6.2.21}tempMotor}{14}{subsubsection.3.6.2.21}%
+\contentsline {subsubsection}{\numberline {3.6.2.22}vd}{14}{subsubsection.3.6.2.22}%
+\contentsline {subsubsection}{\numberline {3.6.2.23}vq}{14}{subsubsection.3.6.2.23}%
+\contentsline {subsubsection}{\numberline {3.6.2.24}vsMax}{15}{subsubsection.3.6.2.24}%
+\contentsline {section}{\numberline {3.7}LED Struct Reference}{15}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Detailed Description}{15}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Field Documentation}{15}{subsection.3.7.2}%
+\contentsline {subsubsection}{\numberline {3.7.2.1}mode}{15}{subsubsection.3.7.2.1}%
+\contentsline {subsubsection}{\numberline {3.7.2.2}pin}{15}{subsubsection.3.7.2.2}%
+\contentsline {subsubsection}{\numberline {3.7.2.3}port}{15}{subsubsection.3.7.2.3}%
+\contentsline {section}{\numberline {3.8}Motor\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Constants Struct Reference}{16}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Detailed Description}{16}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}Field Documentation}{16}{subsection.3.8.2}%
+\contentsline {subsubsection}{\numberline {3.8.2.1}betaMinusIsc}{16}{subsubsection.3.8.2.1}%
+\contentsline {subsubsection}{\numberline {3.8.2.2}eightTimesOneMinusXiSquared}{16}{subsubsection.3.8.2.2}%
+\contentsline {subsubsection}{\numberline {3.8.2.3}fourTimesOneMinusXi}{17}{subsubsection.3.8.2.3}%
+\contentsline {subsubsection}{\numberline {3.8.2.4}fourTimesOneMinusXiOnePlusXiSquared}{17}{subsubsection.3.8.2.4}%
+\contentsline {subsubsection}{\numberline {3.8.2.5}fourTimesOneMinusXiXiSquared}{17}{subsubsection.3.8.2.5}%
+\contentsline {subsubsection}{\numberline {3.8.2.6}invThreePpLambda}{17}{subsubsection.3.8.2.6}%
+\contentsline {subsubsection}{\numberline {3.8.2.7}invTorqueBase}{17}{subsubsection.3.8.2.7}%
+\contentsline {subsubsection}{\numberline {3.8.2.8}isc}{17}{subsubsection.3.8.2.8}%
+\contentsline {subsubsection}{\numberline {3.8.2.9}lambdaDivLqMinusLd}{17}{subsubsection.3.8.2.9}%
+\contentsline {subsubsection}{\numberline {3.8.2.10}oneMinusXi}{17}{subsubsection.3.8.2.10}%
+\contentsline {subsubsection}{\numberline {3.8.2.11}threePpLambda}{18}{subsubsection.3.8.2.11}%
+\contentsline {subsubsection}{\numberline {3.8.2.12}threePpLdMinusLq}{18}{subsubsection.3.8.2.12}%
+\contentsline {subsubsection}{\numberline {3.8.2.13}torqueBase}{18}{subsubsection.3.8.2.13}%
+\contentsline {subsubsection}{\numberline {3.8.2.14}twoMinusXi}{18}{subsubsection.3.8.2.14}%
+\contentsline {subsubsection}{\numberline {3.8.2.15}twoMinusXiSquared}{18}{subsubsection.3.8.2.15}%
+\contentsline {subsubsection}{\numberline {3.8.2.16}twoTimesOneMinusXiOnePlusXiSquared}{18}{subsubsection.3.8.2.16}%
+\contentsline {subsubsection}{\numberline {3.8.2.17}twoTimesOneMinusXiXiSquared}{18}{subsubsection.3.8.2.17}%
+\contentsline {subsubsection}{\numberline {3.8.2.18}xi}{18}{subsubsection.3.8.2.18}%
+\contentsline {subsubsection}{\numberline {3.8.2.19}xiSquared}{19}{subsubsection.3.8.2.19}%
+\contentsline {section}{\numberline {3.9}Motor\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Parameters Struct Reference}{19}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1}Detailed Description}{20}{subsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.9.2}Field Documentation}{20}{subsection.3.9.2}%
+\contentsline {subsubsection}{\numberline {3.9.2.1}b}{20}{subsubsection.3.9.2.1}%
+\contentsline {subsubsection}{\numberline {3.9.2.2}constants}{20}{subsubsection.3.9.2.2}%
+\contentsline {subsubsection}{\numberline {3.9.2.3}dTorqueMax}{20}{subsubsection.3.9.2.3}%
+\contentsline {subsubsection}{\numberline {3.9.2.4}iMax}{20}{subsubsection.3.9.2.4}%
+\contentsline {subsubsection}{\numberline {3.9.2.5}J}{20}{subsubsection.3.9.2.5}%
+\contentsline {subsubsection}{\numberline {3.9.2.6}lambda}{20}{subsubsection.3.9.2.6}%
+\contentsline {subsubsection}{\numberline {3.9.2.7}Ld}{21}{subsubsection.3.9.2.7}%
+\contentsline {subsubsection}{\numberline {3.9.2.8}Lq}{21}{subsubsection.3.9.2.8}%
+\contentsline {subsubsection}{\numberline {3.9.2.9}pp}{21}{subsubsection.3.9.2.9}%
+\contentsline {subsubsection}{\numberline {3.9.2.10}Rs}{21}{subsubsection.3.9.2.10}%
+\contentsline {subsubsection}{\numberline {3.9.2.11}speedMax\_RPM}{21}{subsubsection.3.9.2.11}%
+\contentsline {subsubsection}{\numberline {3.9.2.12}torqueMax}{21}{subsubsection.3.9.2.12}%
+\contentsline {subsubsection}{\numberline {3.9.2.13}vDCMax}{21}{subsubsection.3.9.2.13}%
+\contentsline {section}{\numberline {3.10}Reference Struct Reference}{22}{section.3.10}%
+\contentsline {subsection}{\numberline {3.10.1}Detailed Description}{22}{subsection.3.10.1}%
+\contentsline {subsection}{\numberline {3.10.2}Field Documentation}{22}{subsection.3.10.2}%
+\contentsline {subsubsection}{\numberline {3.10.2.1}idRef}{22}{subsubsection.3.10.2.1}%
+\contentsline {subsubsection}{\numberline {3.10.2.2}iqRef}{22}{subsubsection.3.10.2.2}%
+\contentsline {subsubsection}{\numberline {3.10.2.3}isMaxRef}{22}{subsubsection.3.10.2.3}%
+\contentsline {subsubsection}{\numberline {3.10.2.4}torqueRef}{22}{subsubsection.3.10.2.4}%
+\contentsline {chapter}{\numberline {4}File Documentation}{23}{chapter.4}%
+\contentsline {section}{\numberline {4.1}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inc/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CAN\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}e-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tech.h File Reference}{23}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Detailed Description}{24}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Function Documentation}{25}{subsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}handle\_CAN()}{25}{subsubsection.4.1.2.1}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}send\_CAN\_message()}{26}{subsubsection.4.1.2.2}%
+\contentsline {subsection}{\numberline {4.1.3}Variable Documentation}{27}{subsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.3.1}enableCAN}{27}{subsubsection.4.1.3.1}%
+\contentsline {section}{\numberline {4.2}CAN\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}e-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tech.h}{27}{section.4.2}%
+\contentsline {section}{\numberline {4.3}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inc/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CONTROL.h File Reference}{27}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Detailed Description}{29}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Function Documentation}{29}{subsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}calc\_current\_loop()}{29}{subsubsection.4.3.2.1}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}calc\_current\_reference()}{29}{subsubsection.4.3.2.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.3}calc\_duties()}{30}{subsubsection.4.3.2.3}%
+\contentsline {subsubsection}{\numberline {4.3.2.4}saturate\_voltage()}{31}{subsubsection.4.3.2.4}%
+\contentsline {section}{\numberline {4.4}CONTROL.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{31}{section.4.4}%
+\contentsline {section}{\numberline {4.5}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inc/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ERRORS.h File Reference}{32}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Macro Definition Documentation}{33}{subsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.1.1}OVERCURRENT\_TH}{33}{subsubsection.4.5.1.1}%
+\contentsline {subsubsection}{\numberline {4.5.1.2}OVERSPEED\_TH}{33}{subsubsection.4.5.1.2}%
+\contentsline {subsubsection}{\numberline {4.5.1.3}OVERTEMPERATURE\_INVERTER\_TH}{33}{subsubsection.4.5.1.3}%
+\contentsline {subsubsection}{\numberline {4.5.1.4}OVERTEMPERATURE\_MOTOR\_TH}{33}{subsubsection.4.5.1.4}%
+\contentsline {subsubsection}{\numberline {4.5.1.5}OVERVOLTAGE\_TH}{33}{subsubsection.4.5.1.5}%
+\contentsline {subsubsection}{\numberline {4.5.1.6}UNDERVOLTAGE\_TH}{33}{subsubsection.4.5.1.6}%
+\contentsline {subsection}{\numberline {4.5.2}Enumeration Type Documentation}{33}{subsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.2.1}InverterError}{33}{subsubsection.4.5.2.1}%
+\contentsline {subsection}{\numberline {4.5.3}Function Documentation}{34}{subsection.4.5.3}%
+\contentsline {subsubsection}{\numberline {4.5.3.1}clear\_error()}{34}{subsubsection.4.5.3.1}%
+\contentsline {subsubsection}{\numberline {4.5.3.2}is\_error\_set()}{34}{subsubsection.4.5.3.2}%
+\contentsline {subsubsection}{\numberline {4.5.3.3}set\_error()}{35}{subsubsection.4.5.3.3}%
+\contentsline {section}{\numberline {4.6}ERRORS.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{35}{section.4.6}%
+\contentsline {section}{\numberline {4.7}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inc/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}FSM.h File Reference}{36}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Detailed Description}{37}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Function Documentation}{37}{subsection.4.7.2}%
+\contentsline {subsubsection}{\numberline {4.7.2.1}eval\_inv\_FSM()}{37}{subsubsection.4.7.2.1}%
+\contentsline {section}{\numberline {4.8}FSM.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{38}{section.4.8}%
+\contentsline {section}{\numberline {4.9}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inc/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}INVERTER.h File Reference}{38}{section.4.9}%
+\contentsline {subsection}{\numberline {4.9.1}Detailed Description}{40}{subsection.4.9.1}%
+\contentsline {subsection}{\numberline {4.9.2}Macro Definition Documentation}{40}{subsection.4.9.2}%
+\contentsline {subsubsection}{\numberline {4.9.2.1}DT}{40}{subsubsection.4.9.2.1}%
+\contentsline {subsubsection}{\numberline {4.9.2.2}TS}{40}{subsubsection.4.9.2.2}%
+\contentsline {subsection}{\numberline {4.9.3}Enumeration Type Documentation}{40}{subsection.4.9.3}%
+\contentsline {subsubsection}{\numberline {4.9.3.1}InverterState}{40}{subsubsection.4.9.3.1}%
+\contentsline {subsection}{\numberline {4.9.4}Function Documentation}{41}{subsection.4.9.4}%
+\contentsline {subsubsection}{\numberline {4.9.4.1}disable\_control\_loops()}{41}{subsubsection.4.9.4.1}%
+\contentsline {subsubsection}{\numberline {4.9.4.2}enable\_control\_loops()}{41}{subsubsection.4.9.4.2}%
+\contentsline {subsubsection}{\numberline {4.9.4.3}init\_control\_loops()}{41}{subsubsection.4.9.4.3}%
+\contentsline {subsubsection}{\numberline {4.9.4.4}initialize\_inverter()}{42}{subsubsection.4.9.4.4}%
+\contentsline {subsection}{\numberline {4.9.5}Variable Documentation}{43}{subsection.4.9.5}%
+\contentsline {subsubsection}{\numberline {4.9.5.1}inverter\_left}{43}{subsubsection.4.9.5.1}%
+\contentsline {subsubsection}{\numberline {4.9.5.2}inverter\_right}{43}{subsubsection.4.9.5.2}%
+\contentsline {section}{\numberline {4.10}INVERTER.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{44}{section.4.10}%
+\contentsline {section}{\numberline {4.11}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inc/main.h File Reference}{44}{section.4.11}%
+\contentsline {subsection}{\numberline {4.11.1}Detailed Description}{47}{subsection.4.11.1}%
+\contentsline {subsection}{\numberline {4.11.2}Macro Definition Documentation}{47}{subsection.4.11.2}%
+\contentsline {subsubsection}{\numberline {4.11.2.1}A\_L\_GPIO\_Port}{47}{subsubsection.4.11.2.1}%
+\contentsline {subsubsection}{\numberline {4.11.2.2}A\_L\_Pin}{47}{subsubsection.4.11.2.2}%
+\contentsline {subsubsection}{\numberline {4.11.2.3}A\_R\_GPIO\_Port}{47}{subsubsection.4.11.2.3}%
+\contentsline {subsubsection}{\numberline {4.11.2.4}A\_R\_Pin}{48}{subsubsection.4.11.2.4}%
+\contentsline {subsubsection}{\numberline {4.11.2.5}B\_L\_GPIO\_Port}{48}{subsubsection.4.11.2.5}%
+\contentsline {subsubsection}{\numberline {4.11.2.6}B\_L\_Pin}{48}{subsubsection.4.11.2.6}%
+\contentsline {subsubsection}{\numberline {4.11.2.7}B\_R\_GPIO\_Port}{48}{subsubsection.4.11.2.7}%
+\contentsline {subsubsection}{\numberline {4.11.2.8}B\_R\_Pin}{48}{subsubsection.4.11.2.8}%
+\contentsline {subsubsection}{\numberline {4.11.2.9}DAC\_GPIO\_Port}{48}{subsubsection.4.11.2.9}%
+\contentsline {subsubsection}{\numberline {4.11.2.10}DAC\_Pin}{48}{subsubsection.4.11.2.10}%
+\contentsline {subsubsection}{\numberline {4.11.2.11}DIR\_GPIO\_Port}{48}{subsubsection.4.11.2.11}%
+\contentsline {subsubsection}{\numberline {4.11.2.12}DIR\_Pin}{48}{subsubsection.4.11.2.12}%
+\contentsline {subsubsection}{\numberline {4.11.2.13}ENABLE\_L\_GPIO\_Port}{48}{subsubsection.4.11.2.13}%
+\contentsline {subsubsection}{\numberline {4.11.2.14}ENABLE\_L\_Pin}{49}{subsubsection.4.11.2.14}%
+\contentsline {subsubsection}{\numberline {4.11.2.15}ENABLE\_R\_GPIO\_Port}{49}{subsubsection.4.11.2.15}%
+\contentsline {subsubsection}{\numberline {4.11.2.16}ENABLE\_R\_Pin}{49}{subsubsection.4.11.2.16}%
+\contentsline {subsubsection}{\numberline {4.11.2.17}ia\_L\_GPIO\_Port}{49}{subsubsection.4.11.2.17}%
+\contentsline {subsubsection}{\numberline {4.11.2.18}ia\_L\_Pin}{49}{subsubsection.4.11.2.18}%
+\contentsline {subsubsection}{\numberline {4.11.2.19}ia\_R\_GPIO\_Port}{49}{subsubsection.4.11.2.19}%
+\contentsline {subsubsection}{\numberline {4.11.2.20}ia\_R\_Pin}{49}{subsubsection.4.11.2.20}%
+\contentsline {subsubsection}{\numberline {4.11.2.21}ib\_L\_GPIO\_Port}{49}{subsubsection.4.11.2.21}%
+\contentsline {subsubsection}{\numberline {4.11.2.22}ib\_L\_Pin}{49}{subsubsection.4.11.2.22}%
+\contentsline {subsubsection}{\numberline {4.11.2.23}ib\_R\_GPIO\_Port}{49}{subsubsection.4.11.2.23}%
+\contentsline {subsubsection}{\numberline {4.11.2.24}ib\_R\_Pin}{50}{subsubsection.4.11.2.24}%
+\contentsline {subsubsection}{\numberline {4.11.2.25}ic\_L\_GPIO\_Port}{50}{subsubsection.4.11.2.25}%
+\contentsline {subsubsection}{\numberline {4.11.2.26}ic\_L\_Pin}{50}{subsubsection.4.11.2.26}%
+\contentsline {subsubsection}{\numberline {4.11.2.27}ic\_R\_GPIO\_Port}{50}{subsubsection.4.11.2.27}%
+\contentsline {subsubsection}{\numberline {4.11.2.28}ic\_R\_Pin}{50}{subsubsection.4.11.2.28}%
+\contentsline {subsubsection}{\numberline {4.11.2.29}LED\_ERR\_GPIO\_Port}{50}{subsubsection.4.11.2.29}%
+\contentsline {subsubsection}{\numberline {4.11.2.30}LED\_ERR\_Pin}{50}{subsubsection.4.11.2.30}%
+\contentsline {subsubsection}{\numberline {4.11.2.31}LED\_LEFT\_GPIO\_Port}{50}{subsubsection.4.11.2.31}%
+\contentsline {subsubsection}{\numberline {4.11.2.32}LED\_LEFT\_Pin}{50}{subsubsection.4.11.2.32}%
+\contentsline {subsubsection}{\numberline {4.11.2.33}LED\_RIGHT\_GPIO\_Port}{50}{subsubsection.4.11.2.33}%
+\contentsline {subsubsection}{\numberline {4.11.2.34}LED\_RIGHT\_Pin}{51}{subsubsection.4.11.2.34}%
+\contentsline {subsubsection}{\numberline {4.11.2.35}PWM1\_L\_GPIO\_Port}{51}{subsubsection.4.11.2.35}%
+\contentsline {subsubsection}{\numberline {4.11.2.36}PWM1\_L\_Pin}{51}{subsubsection.4.11.2.36}%
+\contentsline {subsubsection}{\numberline {4.11.2.37}PWM1\_R\_GPIO\_Port}{51}{subsubsection.4.11.2.37}%
+\contentsline {subsubsection}{\numberline {4.11.2.38}PWM1\_R\_Pin}{51}{subsubsection.4.11.2.38}%
+\contentsline {subsubsection}{\numberline {4.11.2.39}PWM2\_L\_GPIO\_Port}{51}{subsubsection.4.11.2.39}%
+\contentsline {subsubsection}{\numberline {4.11.2.40}PWM2\_L\_Pin}{51}{subsubsection.4.11.2.40}%
+\contentsline {subsubsection}{\numberline {4.11.2.41}PWM2\_R\_GPIO\_Port}{51}{subsubsection.4.11.2.41}%
+\contentsline {subsubsection}{\numberline {4.11.2.42}PWM2\_R\_Pin}{51}{subsubsection.4.11.2.42}%
+\contentsline {subsubsection}{\numberline {4.11.2.43}PWM3\_L\_GPIO\_Port}{51}{subsubsection.4.11.2.43}%
+\contentsline {subsubsection}{\numberline {4.11.2.44}PWM3\_L\_Pin}{52}{subsubsection.4.11.2.44}%
+\contentsline {subsubsection}{\numberline {4.11.2.45}PWM3\_R\_GPIO\_Port}{52}{subsubsection.4.11.2.45}%
+\contentsline {subsubsection}{\numberline {4.11.2.46}PWM3\_R\_Pin}{52}{subsubsection.4.11.2.46}%
+\contentsline {subsubsection}{\numberline {4.11.2.47}PWM4\_L\_GPIO\_Port}{52}{subsubsection.4.11.2.47}%
+\contentsline {subsubsection}{\numberline {4.11.2.48}PWM4\_L\_Pin}{52}{subsubsection.4.11.2.48}%
+\contentsline {subsubsection}{\numberline {4.11.2.49}PWM4\_R\_GPIO\_Port}{52}{subsubsection.4.11.2.49}%
+\contentsline {subsubsection}{\numberline {4.11.2.50}PWM4\_R\_Pin}{52}{subsubsection.4.11.2.50}%
+\contentsline {subsubsection}{\numberline {4.11.2.51}PWM5\_L\_GPIO\_Port}{52}{subsubsection.4.11.2.51}%
+\contentsline {subsubsection}{\numberline {4.11.2.52}PWM5\_L\_Pin}{52}{subsubsection.4.11.2.52}%
+\contentsline {subsubsection}{\numberline {4.11.2.53}PWM5\_R\_GPIO\_Port}{52}{subsubsection.4.11.2.53}%
+\contentsline {subsubsection}{\numberline {4.11.2.54}PWM5\_R\_Pin}{53}{subsubsection.4.11.2.54}%
+\contentsline {subsubsection}{\numberline {4.11.2.55}PWM6\_L\_GPIO\_Port}{53}{subsubsection.4.11.2.55}%
+\contentsline {subsubsection}{\numberline {4.11.2.56}PWM6\_L\_Pin}{53}{subsubsection.4.11.2.56}%
+\contentsline {subsubsection}{\numberline {4.11.2.57}PWM6\_R\_GPIO\_Port}{53}{subsubsection.4.11.2.57}%
+\contentsline {subsubsection}{\numberline {4.11.2.58}PWM6\_R\_Pin}{53}{subsubsection.4.11.2.58}%
+\contentsline {subsubsection}{\numberline {4.11.2.59}SC\_det\_GPIO\_Port}{53}{subsubsection.4.11.2.59}%
+\contentsline {subsubsection}{\numberline {4.11.2.60}SC\_det\_Pin}{53}{subsubsection.4.11.2.60}%
+\contentsline {subsubsection}{\numberline {4.11.2.61}Tinv\_L\_GPIO\_Port}{53}{subsubsection.4.11.2.61}%
+\contentsline {subsubsection}{\numberline {4.11.2.62}Tinv\_L\_Pin}{53}{subsubsection.4.11.2.62}%
+\contentsline {subsubsection}{\numberline {4.11.2.63}Tinv\_R\_GPIO\_Port}{53}{subsubsection.4.11.2.63}%
+\contentsline {subsubsection}{\numberline {4.11.2.64}Tinv\_R\_Pin}{54}{subsubsection.4.11.2.64}%
+\contentsline {subsubsection}{\numberline {4.11.2.65}Tmot\_L\_GPIO\_Port}{54}{subsubsection.4.11.2.65}%
+\contentsline {subsubsection}{\numberline {4.11.2.66}Tmot\_L\_Pin}{54}{subsubsection.4.11.2.66}%
+\contentsline {subsubsection}{\numberline {4.11.2.67}Tmot\_R\_GPIO\_Port}{54}{subsubsection.4.11.2.67}%
+\contentsline {subsubsection}{\numberline {4.11.2.68}Tmot\_R\_Pin}{54}{subsubsection.4.11.2.68}%
+\contentsline {subsubsection}{\numberline {4.11.2.69}TRIP\_L\_GPIO\_Port}{54}{subsubsection.4.11.2.69}%
+\contentsline {subsubsection}{\numberline {4.11.2.70}TRIP\_L\_Pin}{54}{subsubsection.4.11.2.70}%
+\contentsline {subsubsection}{\numberline {4.11.2.71}TRIP\_R\_GPIO\_Port}{54}{subsubsection.4.11.2.71}%
+\contentsline {subsubsection}{\numberline {4.11.2.72}TRIP\_R\_Pin}{54}{subsubsection.4.11.2.72}%
+\contentsline {subsubsection}{\numberline {4.11.2.73}VDC\_L\_GPIO\_Port}{54}{subsubsection.4.11.2.73}%
+\contentsline {subsubsection}{\numberline {4.11.2.74}VDC\_L\_Pin}{55}{subsubsection.4.11.2.74}%
+\contentsline {subsubsection}{\numberline {4.11.2.75}VDC\_R\_GPIO\_Port}{55}{subsubsection.4.11.2.75}%
+\contentsline {subsubsection}{\numberline {4.11.2.76}VDC\_R\_Pin}{55}{subsubsection.4.11.2.76}%
+\contentsline {subsubsection}{\numberline {4.11.2.77}WRN\_L\_GPIO\_Port}{55}{subsubsection.4.11.2.77}%
+\contentsline {subsubsection}{\numberline {4.11.2.78}WRN\_L\_Pin}{55}{subsubsection.4.11.2.78}%
+\contentsline {subsubsection}{\numberline {4.11.2.79}WRN\_R\_GPIO\_Port}{55}{subsubsection.4.11.2.79}%
+\contentsline {subsubsection}{\numberline {4.11.2.80}WRN\_R\_Pin}{55}{subsubsection.4.11.2.80}%
+\contentsline {subsubsection}{\numberline {4.11.2.81}Z\_L\_GPIO\_Port}{55}{subsubsection.4.11.2.81}%
+\contentsline {subsubsection}{\numberline {4.11.2.82}Z\_L\_Pin}{55}{subsubsection.4.11.2.82}%
+\contentsline {subsubsection}{\numberline {4.11.2.83}Z\_R\_GPIO\_Port}{55}{subsubsection.4.11.2.83}%
+\contentsline {subsubsection}{\numberline {4.11.2.84}Z\_R\_Pin}{55}{subsubsection.4.11.2.84}%
+\contentsline {subsection}{\numberline {4.11.3}Function Documentation}{55}{subsection.4.11.3}%
+\contentsline {subsubsection}{\numberline {4.11.3.1}Error\_Handler()}{55}{subsubsection.4.11.3.1}%
+\contentsline {section}{\numberline {4.12}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{56}{section.4.12}%
+\contentsline {section}{\numberline {4.13}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inc/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}MEASUREMENTS.h File Reference}{58}{section.4.13}%
+\contentsline {subsection}{\numberline {4.13.1}Detailed Description}{59}{subsection.4.13.1}%
+\contentsline {subsection}{\numberline {4.13.2}Macro Definition Documentation}{60}{subsection.4.13.2}%
+\contentsline {subsubsection}{\numberline {4.13.2.1}CURRENT\_OFFSET}{60}{subsubsection.4.13.2.1}%
+\contentsline {subsubsection}{\numberline {4.13.2.2}CURRENT\_SLOPE}{60}{subsubsection.4.13.2.2}%
+\contentsline {subsubsection}{\numberline {4.13.2.3}VOLTAGE\_OFFSET}{60}{subsubsection.4.13.2.3}%
+\contentsline {subsubsection}{\numberline {4.13.2.4}VOLTAGE\_SLOPE}{60}{subsubsection.4.13.2.4}%
+\contentsline {subsection}{\numberline {4.13.3}Function Documentation}{60}{subsection.4.13.3}%
+\contentsline {subsubsection}{\numberline {4.13.3.1}calibrate\_offsets()}{60}{subsubsection.4.13.3.1}%
+\contentsline {subsubsection}{\numberline {4.13.3.2}get\_currents\_voltage()}{61}{subsubsection.4.13.3.2}%
+\contentsline {subsubsection}{\numberline {4.13.3.3}get\_idiq()}{62}{subsubsection.4.13.3.3}%
+\contentsline {subsubsection}{\numberline {4.13.3.4}get\_linear()}{63}{subsubsection.4.13.3.4}%
+\contentsline {subsubsection}{\numberline {4.13.3.5}get\_temperature()}{64}{subsubsection.4.13.3.5}%
+\contentsline {subsection}{\numberline {4.13.4}Variable Documentation}{65}{subsection.4.13.4}%
+\contentsline {subsubsection}{\numberline {4.13.4.1}rawADC\_left}{65}{subsubsection.4.13.4.1}%
+\contentsline {subsubsection}{\numberline {4.13.4.2}rawADC\_right}{65}{subsubsection.4.13.4.2}%
+\contentsline {subsubsection}{\numberline {4.13.4.3}rawADC\_temp}{65}{subsubsection.4.13.4.3}%
+\contentsline {subsubsection}{\numberline {4.13.4.4}tempInverterLUT}{65}{subsubsection.4.13.4.4}%
+\contentsline {subsubsection}{\numberline {4.13.4.5}tempMotorLUT}{65}{subsubsection.4.13.4.5}%
+\contentsline {section}{\numberline {4.14}MEASUREMENTS.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{66}{section.4.14}%
+\contentsline {section}{\numberline {4.15}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inc/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}MOTOR.h File Reference}{66}{section.4.15}%
+\contentsline {subsection}{\numberline {4.15.1}Detailed Description}{68}{subsection.4.15.1}%
+\contentsline {subsection}{\numberline {4.15.2}Function Documentation}{68}{subsection.4.15.2}%
+\contentsline {subsubsection}{\numberline {4.15.2.1}check\_motor\_parameters()}{68}{subsubsection.4.15.2.1}%
+\contentsline {subsubsection}{\numberline {4.15.2.2}precalculate\_motor\_constants()}{68}{subsubsection.4.15.2.2}%
+\contentsline {subsection}{\numberline {4.15.3}Variable Documentation}{69}{subsection.4.15.3}%
+\contentsline {subsubsection}{\numberline {4.15.3.1}motor\_left}{69}{subsubsection.4.15.3.1}%
+\contentsline {subsubsection}{\numberline {4.15.3.2}motor\_right}{69}{subsubsection.4.15.3.2}%
+\contentsline {section}{\numberline {4.16}MOTOR.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{69}{section.4.16}%
+\contentsline {section}{\numberline {4.17}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inc/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PCB\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}IO.h File Reference}{70}{section.4.17}%
+\contentsline {subsection}{\numberline {4.17.1}Detailed Description}{72}{subsection.4.17.1}%
+\contentsline {subsection}{\numberline {4.17.2}Macro Definition Documentation}{72}{subsection.4.17.2}%
+\contentsline {subsubsection}{\numberline {4.17.2.1}DIR\_STATE}{72}{subsubsection.4.17.2.1}%
+\contentsline {subsubsection}{\numberline {4.17.2.2}DISABLE}{72}{subsubsection.4.17.2.2}%
+\contentsline {subsubsection}{\numberline {4.17.2.3}ENABLE}{72}{subsubsection.4.17.2.3}%
+\contentsline {subsubsection}{\numberline {4.17.2.4}SC\_DET\_STATE}{72}{subsubsection.4.17.2.4}%
+\contentsline {subsubsection}{\numberline {4.17.2.5}WRN\_STATE}{72}{subsubsection.4.17.2.5}%
+\contentsline {subsection}{\numberline {4.17.3}Enumeration Type Documentation}{72}{subsection.4.17.3}%
+\contentsline {subsubsection}{\numberline {4.17.3.1}LEDMode}{72}{subsubsection.4.17.3.1}%
+\contentsline {subsection}{\numberline {4.17.4}Function Documentation}{73}{subsection.4.17.4}%
+\contentsline {subsubsection}{\numberline {4.17.4.1}enable\_inverters()}{73}{subsubsection.4.17.4.1}%
+\contentsline {subsubsection}{\numberline {4.17.4.2}handle\_direction()}{73}{subsubsection.4.17.4.2}%
+\contentsline {subsubsection}{\numberline {4.17.4.3}handle\_LED()}{74}{subsubsection.4.17.4.3}%
+\contentsline {subsection}{\numberline {4.17.5}Variable Documentation}{75}{subsection.4.17.5}%
+\contentsline {subsubsection}{\numberline {4.17.5.1}led\_left}{75}{subsubsection.4.17.5.1}%
+\contentsline {subsubsection}{\numberline {4.17.5.2}led\_right}{75}{subsubsection.4.17.5.2}%
+\contentsline {subsubsection}{\numberline {4.17.5.3}ledError}{75}{subsubsection.4.17.5.3}%
+\contentsline {section}{\numberline {4.18}PCB\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}IO.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{75}{section.4.18}%
+\contentsline {section}{\numberline {4.19}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inc/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PWM.h File Reference}{76}{section.4.19}%
+\contentsline {subsection}{\numberline {4.19.1}Detailed Description}{77}{subsection.4.19.1}%
+\contentsline {subsection}{\numberline {4.19.2}Function Documentation}{77}{subsection.4.19.2}%
+\contentsline {subsubsection}{\numberline {4.19.2.1}disable\_PWM()}{77}{subsubsection.4.19.2.1}%
+\contentsline {subsubsection}{\numberline {4.19.2.2}enable\_PWM()}{77}{subsubsection.4.19.2.2}%
+\contentsline {subsubsection}{\numberline {4.19.2.3}update\_PWM()}{77}{subsubsection.4.19.2.3}%
+\contentsline {section}{\numberline {4.20}PWM.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{78}{section.4.20}%
+\contentsline {section}{\numberline {4.21}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inc/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}REFERENCE.h File Reference}{78}{section.4.21}%
+\contentsline {subsection}{\numberline {4.21.1}Detailed Description}{80}{subsection.4.21.1}%
+\contentsline {subsection}{\numberline {4.21.2}Macro Definition Documentation}{80}{subsection.4.21.2}%
+\contentsline {subsubsection}{\numberline {4.21.2.1}TEMP\_INVERTER\_DERATING}{80}{subsubsection.4.21.2.1}%
+\contentsline {subsubsection}{\numberline {4.21.2.2}TEMP\_INVERTER\_MAX}{80}{subsubsection.4.21.2.2}%
+\contentsline {subsubsection}{\numberline {4.21.2.3}TEMP\_MOTOR\_DERATING}{81}{subsubsection.4.21.2.3}%
+\contentsline {subsubsection}{\numberline {4.21.2.4}TEMP\_MOTOR\_MAX}{81}{subsubsection.4.21.2.4}%
+\contentsline {subsection}{\numberline {4.21.3}Function Documentation}{81}{subsection.4.21.3}%
+\contentsline {subsubsection}{\numberline {4.21.3.1}calculate\_derated\_current()}{81}{subsubsection.4.21.3.1}%
+\contentsline {subsubsection}{\numberline {4.21.3.2}derate\_current\_reference()}{81}{subsubsection.4.21.3.2}%
+\contentsline {subsubsection}{\numberline {4.21.3.3}handle\_torqueRef()}{82}{subsubsection.4.21.3.3}%
+\contentsline {subsubsection}{\numberline {4.21.3.4}limit\_torque\_to\_prevent\_overspeed()}{83}{subsubsection.4.21.3.4}%
+\contentsline {subsubsection}{\numberline {4.21.3.5}saturate\_symmetric()}{84}{subsubsection.4.21.3.5}%
+\contentsline {subsubsection}{\numberline {4.21.3.6}set\_torque\_direction()}{85}{subsubsection.4.21.3.6}%
+\contentsline {subsection}{\numberline {4.21.4}Variable Documentation}{86}{subsection.4.21.4}%
+\contentsline {subsubsection}{\numberline {4.21.4.1}torqueRefIn\_left}{86}{subsubsection.4.21.4.1}%
+\contentsline {subsubsection}{\numberline {4.21.4.2}torqueRefIn\_right}{86}{subsubsection.4.21.4.2}%
+\contentsline {section}{\numberline {4.22}REFERENCE.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{86}{section.4.22}%
+\contentsline {section}{\numberline {4.23}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inc/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}TASKS\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}1ms.h File Reference}{87}{section.4.23}%
+\contentsline {subsection}{\numberline {4.23.1}Detailed Description}{88}{subsection.4.23.1}%
+\contentsline {subsection}{\numberline {4.23.2}Function Documentation}{88}{subsection.4.23.2}%
+\contentsline {subsubsection}{\numberline {4.23.2.1}handle\_overtemperature\_faults()}{88}{subsubsection.4.23.2.1}%
+\contentsline {subsubsection}{\numberline {4.23.2.2}read\_temperatures()}{89}{subsubsection.4.23.2.2}%
+\contentsline {subsubsection}{\numberline {4.23.2.3}tasks\_1ms()}{89}{subsubsection.4.23.2.3}%
+\contentsline {section}{\numberline {4.24}TASKS\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}1ms.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{90}{section.4.24}%
+\contentsline {section}{\numberline {4.25}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inc/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}TASKS\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CRITICAL.h File Reference}{91}{section.4.25}%
+\contentsline {subsection}{\numberline {4.25.1}Detailed Description}{91}{subsection.4.25.1}%
+\contentsline {subsection}{\numberline {4.25.2}Function Documentation}{92}{subsection.4.25.2}%
+\contentsline {subsubsection}{\numberline {4.25.2.1}tasks\_critical\_left()}{92}{subsubsection.4.25.2.1}%
+\contentsline {subsubsection}{\numberline {4.25.2.2}tasks\_critical\_right()}{92}{subsubsection.4.25.2.2}%
+\contentsline {section}{\numberline {4.26}TASKS\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CRITICAL.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{93}{section.4.26}%
+\contentsline {section}{\numberline {4.27}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CAN\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}e-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tech.c File Reference}{93}{section.4.27}%
+\contentsline {subsection}{\numberline {4.27.1}Detailed Description}{94}{subsection.4.27.1}%
+\contentsline {subsection}{\numberline {4.27.2}Function Documentation}{94}{subsection.4.27.2}%
+\contentsline {subsubsection}{\numberline {4.27.2.1}handle\_CAN()}{94}{subsubsection.4.27.2.1}%
+\contentsline {subsubsection}{\numberline {4.27.2.2}send\_CAN\_message()}{95}{subsubsection.4.27.2.2}%
+\contentsline {subsection}{\numberline {4.27.3}Variable Documentation}{96}{subsection.4.27.3}%
+\contentsline {subsubsection}{\numberline {4.27.3.1}keepAlive}{96}{subsubsection.4.27.3.1}%
+\contentsline {section}{\numberline {4.28}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CONTROL.c File Reference}{96}{section.4.28}%
+\contentsline {subsection}{\numberline {4.28.1}Detailed Description}{97}{subsection.4.28.1}%
+\contentsline {subsection}{\numberline {4.28.2}Function Documentation}{97}{subsection.4.28.2}%
+\contentsline {subsubsection}{\numberline {4.28.2.1}calc\_current\_loop()}{97}{subsubsection.4.28.2.1}%
+\contentsline {subsubsection}{\numberline {4.28.2.2}calc\_current\_reference()}{97}{subsubsection.4.28.2.2}%
+\contentsline {subsubsection}{\numberline {4.28.2.3}calc\_duties()}{98}{subsubsection.4.28.2.3}%
+\contentsline {subsubsection}{\numberline {4.28.2.4}saturate\_voltage()}{99}{subsubsection.4.28.2.4}%
+\contentsline {section}{\numberline {4.29}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ERRORS.c File Reference}{99}{section.4.29}%
+\contentsline {subsection}{\numberline {4.29.1}Detailed Description}{100}{subsection.4.29.1}%
+\contentsline {subsection}{\numberline {4.29.2}Function Documentation}{100}{subsection.4.29.2}%
+\contentsline {subsubsection}{\numberline {4.29.2.1}clear\_error()}{100}{subsubsection.4.29.2.1}%
+\contentsline {subsubsection}{\numberline {4.29.2.2}is\_error\_set()}{101}{subsubsection.4.29.2.2}%
+\contentsline {subsubsection}{\numberline {4.29.2.3}set\_error()}{101}{subsubsection.4.29.2.3}%
+\contentsline {section}{\numberline {4.30}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}FSM.c File Reference}{101}{section.4.30}%
+\contentsline {subsection}{\numberline {4.30.1}Detailed Description}{102}{subsection.4.30.1}%
+\contentsline {subsection}{\numberline {4.30.2}Function Documentation}{103}{subsection.4.30.2}%
+\contentsline {subsubsection}{\numberline {4.30.2.1}eval\_inv\_FSM()}{103}{subsubsection.4.30.2.1}%
+\contentsline {section}{\numberline {4.31}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}INVERTER.c File Reference}{103}{section.4.31}%
+\contentsline {subsection}{\numberline {4.31.1}Detailed Description}{104}{subsection.4.31.1}%
+\contentsline {subsection}{\numberline {4.31.2}Function Documentation}{105}{subsection.4.31.2}%
+\contentsline {subsubsection}{\numberline {4.31.2.1}disable\_control\_loops()}{105}{subsubsection.4.31.2.1}%
+\contentsline {subsubsection}{\numberline {4.31.2.2}enable\_control\_loops()}{105}{subsubsection.4.31.2.2}%
+\contentsline {subsubsection}{\numberline {4.31.2.3}init\_control\_loops()}{105}{subsubsection.4.31.2.3}%
+\contentsline {subsubsection}{\numberline {4.31.2.4}initialize\_inverter()}{106}{subsubsection.4.31.2.4}%
+\contentsline {subsection}{\numberline {4.31.3}Variable Documentation}{107}{subsection.4.31.3}%
+\contentsline {subsubsection}{\numberline {4.31.3.1}inverter\_left}{107}{subsubsection.4.31.3.1}%
+\contentsline {subsubsection}{\numberline {4.31.3.2}inverter\_right}{107}{subsubsection.4.31.3.2}%
+\contentsline {section}{\numberline {4.32}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/main.c File Reference}{107}{section.4.32}%
+\contentsline {subsection}{\numberline {4.32.1}Detailed Description}{108}{subsection.4.32.1}%
+\contentsline {subsection}{\numberline {4.32.2}Function Documentation}{108}{subsection.4.32.2}%
+\contentsline {subsubsection}{\numberline {4.32.2.1}Error\_Handler()}{108}{subsubsection.4.32.2.1}%
+\contentsline {subsubsection}{\numberline {4.32.2.2}main()}{109}{subsubsection.4.32.2.2}%
+\contentsline {subsubsection}{\numberline {4.32.2.3}SystemClock\_Config()}{109}{subsubsection.4.32.2.3}%
+\contentsline {section}{\numberline {4.33}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}MEASUREMENTS.c File Reference}{110}{section.4.33}%
+\contentsline {subsection}{\numberline {4.33.1}Detailed Description}{120}{subsection.4.33.1}%
+\contentsline {subsection}{\numberline {4.33.2}Function Documentation}{121}{subsection.4.33.2}%
+\contentsline {subsubsection}{\numberline {4.33.2.1}calibrate\_offsets()}{121}{subsubsection.4.33.2.1}%
+\contentsline {subsubsection}{\numberline {4.33.2.2}get\_currents\_voltage()}{121}{subsubsection.4.33.2.2}%
+\contentsline {subsubsection}{\numberline {4.33.2.3}get\_idiq()}{122}{subsubsection.4.33.2.3}%
+\contentsline {subsubsection}{\numberline {4.33.2.4}get\_linear()}{123}{subsubsection.4.33.2.4}%
+\contentsline {subsubsection}{\numberline {4.33.2.5}get\_temperature()}{123}{subsubsection.4.33.2.5}%
+\contentsline {subsection}{\numberline {4.33.3}Variable Documentation}{124}{subsection.4.33.3}%
+\contentsline {subsubsection}{\numberline {4.33.3.1}rawADC\_left}{124}{subsubsection.4.33.3.1}%
+\contentsline {subsubsection}{\numberline {4.33.3.2}rawADC\_right}{124}{subsubsection.4.33.3.2}%
+\contentsline {subsubsection}{\numberline {4.33.3.3}rawADC\_temp}{124}{subsubsection.4.33.3.3}%
+\contentsline {subsubsection}{\numberline {4.33.3.4}tempInverterLUT}{125}{subsubsection.4.33.3.4}%
+\contentsline {subsubsection}{\numberline {4.33.3.5}tempMotorLUT}{130}{subsubsection.4.33.3.5}%
+\contentsline {section}{\numberline {4.34}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}MOTOR.c File Reference}{135}{section.4.34}%
+\contentsline {subsection}{\numberline {4.34.1}Detailed Description}{136}{subsection.4.34.1}%
+\contentsline {subsection}{\numberline {4.34.2}Function Documentation}{137}{subsection.4.34.2}%
+\contentsline {subsubsection}{\numberline {4.34.2.1}check\_motor\_parameters()}{137}{subsubsection.4.34.2.1}%
+\contentsline {subsubsection}{\numberline {4.34.2.2}precalculate\_motor\_constants()}{137}{subsubsection.4.34.2.2}%
+\contentsline {subsection}{\numberline {4.34.3}Variable Documentation}{138}{subsection.4.34.3}%
+\contentsline {subsubsection}{\numberline {4.34.3.1}motor\_left}{138}{subsubsection.4.34.3.1}%
+\contentsline {subsubsection}{\numberline {4.34.3.2}motor\_right}{138}{subsubsection.4.34.3.2}%
+\contentsline {section}{\numberline {4.35}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PCB\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}IO.c File Reference}{139}{section.4.35}%
+\contentsline {subsection}{\numberline {4.35.1}Detailed Description}{140}{subsection.4.35.1}%
+\contentsline {subsection}{\numberline {4.35.2}Function Documentation}{140}{subsection.4.35.2}%
+\contentsline {subsubsection}{\numberline {4.35.2.1}enable\_inverters()}{140}{subsubsection.4.35.2.1}%
+\contentsline {subsubsection}{\numberline {4.35.2.2}handle\_direction()}{140}{subsubsection.4.35.2.2}%
+\contentsline {subsubsection}{\numberline {4.35.2.3}handle\_LED()}{141}{subsubsection.4.35.2.3}%
+\contentsline {subsection}{\numberline {4.35.3}Variable Documentation}{141}{subsection.4.35.3}%
+\contentsline {subsubsection}{\numberline {4.35.3.1}led\_left}{141}{subsubsection.4.35.3.1}%
+\contentsline {subsubsection}{\numberline {4.35.3.2}led\_right}{142}{subsubsection.4.35.3.2}%
+\contentsline {subsubsection}{\numberline {4.35.3.3}ledError}{142}{subsubsection.4.35.3.3}%
+\contentsline {section}{\numberline {4.36}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PWM.c File Reference}{142}{section.4.36}%
+\contentsline {subsection}{\numberline {4.36.1}Detailed Description}{143}{subsection.4.36.1}%
+\contentsline {subsection}{\numberline {4.36.2}Function Documentation}{143}{subsection.4.36.2}%
+\contentsline {subsubsection}{\numberline {4.36.2.1}disable\_PWM()}{143}{subsubsection.4.36.2.1}%
+\contentsline {subsubsection}{\numberline {4.36.2.2}enable\_PWM()}{143}{subsubsection.4.36.2.2}%
+\contentsline {subsubsection}{\numberline {4.36.2.3}update\_PWM()}{143}{subsubsection.4.36.2.3}%
+\contentsline {section}{\numberline {4.37}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}REFERENCE.c File Reference}{144}{section.4.37}%
+\contentsline {subsection}{\numberline {4.37.1}Detailed Description}{146}{subsection.4.37.1}%
+\contentsline {subsection}{\numberline {4.37.2}Function Documentation}{146}{subsection.4.37.2}%
+\contentsline {subsubsection}{\numberline {4.37.2.1}calculate\_derated\_current()}{146}{subsubsection.4.37.2.1}%
+\contentsline {subsubsection}{\numberline {4.37.2.2}derate\_current\_reference()}{146}{subsubsection.4.37.2.2}%
+\contentsline {subsubsection}{\numberline {4.37.2.3}handle\_torqueRef()}{147}{subsubsection.4.37.2.3}%
+\contentsline {subsubsection}{\numberline {4.37.2.4}limit\_torque\_to\_prevent\_overspeed()}{148}{subsubsection.4.37.2.4}%
+\contentsline {subsubsection}{\numberline {4.37.2.5}saturate\_symmetric()}{149}{subsubsection.4.37.2.5}%
+\contentsline {subsubsection}{\numberline {4.37.2.6}set\_torque\_direction()}{150}{subsubsection.4.37.2.6}%
+\contentsline {subsection}{\numberline {4.37.3}Variable Documentation}{150}{subsection.4.37.3}%
+\contentsline {subsubsection}{\numberline {4.37.3.1}torqueRefIn\_left}{150}{subsubsection.4.37.3.1}%
+\contentsline {subsubsection}{\numberline {4.37.3.2}torqueRefIn\_right}{150}{subsubsection.4.37.3.2}%
+\contentsline {section}{\numberline {4.38}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/stm32f7xx\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}it.c File Reference}{150}{section.4.38}%
+\contentsline {subsection}{\numberline {4.38.1}Detailed Description}{152}{subsection.4.38.1}%
+\contentsline {subsection}{\numberline {4.38.2}Function Documentation}{152}{subsection.4.38.2}%
+\contentsline {subsubsection}{\numberline {4.38.2.1}BusFault\_Handler()}{152}{subsubsection.4.38.2.1}%
+\contentsline {subsubsection}{\numberline {4.38.2.2}CAN1\_RX0\_IRQHandler()}{152}{subsubsection.4.38.2.2}%
+\contentsline {subsubsection}{\numberline {4.38.2.3}DebugMon\_Handler()}{153}{subsubsection.4.38.2.3}%
+\contentsline {subsubsection}{\numberline {4.38.2.4}DMA2\_Stream0\_IRQHandler()}{153}{subsubsection.4.38.2.4}%
+\contentsline {subsubsection}{\numberline {4.38.2.5}DMA2\_Stream1\_IRQHandler()}{153}{subsubsection.4.38.2.5}%
+\contentsline {subsubsection}{\numberline {4.38.2.6}DMA2\_Stream2\_IRQHandler()}{154}{subsubsection.4.38.2.6}%
+\contentsline {subsubsection}{\numberline {4.38.2.7}HAL\_ADC\_ConvCpltCallback()}{154}{subsubsection.4.38.2.7}%
+\contentsline {subsubsection}{\numberline {4.38.2.8}HardFault\_Handler()}{154}{subsubsection.4.38.2.8}%
+\contentsline {subsubsection}{\numberline {4.38.2.9}MemManage\_Handler()}{154}{subsubsection.4.38.2.9}%
+\contentsline {subsubsection}{\numberline {4.38.2.10}NMI\_Handler()}{154}{subsubsection.4.38.2.10}%
+\contentsline {subsubsection}{\numberline {4.38.2.11}PendSV\_Handler()}{155}{subsubsection.4.38.2.11}%
+\contentsline {subsubsection}{\numberline {4.38.2.12}SVC\_Handler()}{155}{subsubsection.4.38.2.12}%
+\contentsline {subsubsection}{\numberline {4.38.2.13}SysTick\_Handler()}{155}{subsubsection.4.38.2.13}%
+\contentsline {subsubsection}{\numberline {4.38.2.14}TIM1\_UP\_TIM10\_IRQHandler()}{155}{subsubsection.4.38.2.14}%
+\contentsline {subsubsection}{\numberline {4.38.2.15}TIM6\_DAC\_IRQHandler()}{155}{subsubsection.4.38.2.15}%
+\contentsline {subsubsection}{\numberline {4.38.2.16}UsageFault\_Handler()}{155}{subsubsection.4.38.2.16}%
+\contentsline {subsection}{\numberline {4.38.3}Variable Documentation}{155}{subsection.4.38.3}%
+\contentsline {subsubsection}{\numberline {4.38.3.1}hcan1}{155}{subsubsection.4.38.3.1}%
+\contentsline {subsubsection}{\numberline {4.38.3.2}hdac}{156}{subsubsection.4.38.3.2}%
+\contentsline {subsubsection}{\numberline {4.38.3.3}hdma\_adc1}{156}{subsubsection.4.38.3.3}%
+\contentsline {subsubsection}{\numberline {4.38.3.4}hdma\_adc2}{156}{subsubsection.4.38.3.4}%
+\contentsline {subsubsection}{\numberline {4.38.3.5}hdma\_adc3}{156}{subsubsection.4.38.3.5}%
+\contentsline {subsubsection}{\numberline {4.38.3.6}htim1}{156}{subsubsection.4.38.3.6}%
+\contentsline {subsubsection}{\numberline {4.38.3.7}htim6}{156}{subsubsection.4.38.3.7}%
+\contentsline {section}{\numberline {4.39}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}TASKS\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}1ms.c File Reference}{156}{section.4.39}%
+\contentsline {subsection}{\numberline {4.39.1}Detailed Description}{157}{subsection.4.39.1}%
+\contentsline {subsection}{\numberline {4.39.2}Function Documentation}{158}{subsection.4.39.2}%
+\contentsline {subsubsection}{\numberline {4.39.2.1}handle\_overtemperature\_faults()}{158}{subsubsection.4.39.2.1}%
+\contentsline {subsubsection}{\numberline {4.39.2.2}read\_temperatures()}{158}{subsubsection.4.39.2.2}%
+\contentsline {subsubsection}{\numberline {4.39.2.3}tasks\_1ms()}{159}{subsubsection.4.39.2.3}%
+\contentsline {section}{\numberline {4.40}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/dwegg/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inverter/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}TASKS\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CRITICAL.c File Reference}{160}{section.4.40}%
+\contentsline {subsection}{\numberline {4.40.1}Detailed Description}{161}{subsection.4.40.1}%
+\contentsline {subsection}{\numberline {4.40.2}Function Documentation}{161}{subsection.4.40.2}%
+\contentsline {subsubsection}{\numberline {4.40.2.1}tasks\_critical\_left()}{161}{subsubsection.4.40.2.1}%
+\contentsline {subsubsection}{\numberline {4.40.2.2}tasks\_critical\_right()}{162}{subsubsection.4.40.2.2}%
+\contentsline {subsection}{\numberline {4.40.3}Variable Documentation}{162}{subsection.4.40.3}%
+\contentsline {subsubsection}{\numberline {4.40.3.1}angle\_left}{162}{subsubsection.4.40.3.1}%
+\contentsline {subsubsection}{\numberline {4.40.3.2}elapsed\_ticks}{162}{subsubsection.4.40.3.2}%
+\contentsline {subsubsection}{\numberline {4.40.3.3}freqRamp\_left}{162}{subsubsection.4.40.3.3}%
+\contentsline {subsubsection}{\numberline {4.40.3.4}start\_ticks}{162}{subsubsection.4.40.3.4}%
+\contentsline {chapter}{Index}{163}{section*.202}%

@@ -1,0 +1,10 @@
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [Inverter_Control] of PCB Document [Inverter_Control.PcbDoc]
+   Generated File[Inverter_Control(Inverter_Control).step]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 23:41:56 On 20/03/2024

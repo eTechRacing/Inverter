@@ -1,0 +1,79 @@
+
+\documentclass[12pt]{report}
+% Paquetes y estilo
+\input{etc/packages}
+\input{etc/style}
+
+
+
+\title{Diseño e implementación de un inversor trifásico dual para tracción eléctrica}
+\author{David Redondo Viñolo}
+
+\begin{document}
+	
+
+%\bibliographystyle{unsrt}
+\pgfplotsset{compat=1.18}
+
+% Portada y secciones no numeradas
+% UNCOMMENT
+
+\input{content/00_portada}
+\input{content/01_resumen}
+\input{content/02_agradecimientos}
+
+% END UNCOMMENT
+
+
+% Resumen y palabras clave 
+% Índice
+% UNCOMMENT
+
+\input{content/03_glosario}
+
+{
+  \hypersetup{linkcolor=black}
+  \setcounter{tocdepth}{4}
+  \tableofcontents
+}
+
+% Capítulos numerados
+% UNCOMMENT
+
+\input{content/04_introduccion_objetivos}
+\input{content/05_estado_del_arte}
+\input{content/06_metodologia}
+\input{content/07_desarrollo}
+\input{content/08_resultados}
+
+\addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
+\input{content/09_consideraciones_finales}
+
+% END UNCOMMENT
+
+% Bibliografía
+% UNCOMMENT
+
+\bibliographystyle{plainnat}
+\bibliography{bibliography.bib}
+
+% END UNCOMMENT
+
+% Apéndices
+% UNCOMMENT
+
+
+\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
+
+\input{content/10_portada_apendices}
+\appendix
+\input{content/11_apendices}
+
+% END UNCOMMENT
+
+
+
+
+
+\end{document}
+

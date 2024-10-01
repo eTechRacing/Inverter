@@ -1,0 +1,37 @@
+<map id="C:/Users/dwegg/Desktop/Inverter/SW/Inverter/Core/Src/FSM.c" name="C:/Users/dwegg/Desktop/Inverter/SW/Inverter/Core/Src/FSM.c">
+<area shape="rect" id="Node000001" title="This file provides code for the inverter Finite State Machine." alt="" coords="180,5,345,64"/>
+<area shape="rect" id="Node000002" href="$_f_s_m_8h.html" title="Header for the inverter Finite State Machine." alt="" coords="232,112,293,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="265,64,265,96,260,96,260,64"/>
+<area shape="rect" id="Node000003" href="$_i_n_v_e_r_t_e_r_8h.html" title="Header file for the inverter struct and extern variables." alt="" coords="214,187,311,213"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="265,139,265,171,260,171,260,139"/>
+<area shape="rect" id="Node000004" href="$_p_c_b___i_o_8h.html" title="Header file for handling GPIOs." alt="" coords="14,261,93,288"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="227,216,105,258,103,253,225,211"/>
+<area shape="rect" id="Node000008" href="$_m_e_a_s_u_r_e_m_e_n_t_s_8h.html" title="Header file for handling measurements." alt="" coords="191,336,334,363"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="265,214,265,320,260,320,260,214"/>
+<area shape="rect" id="Node000011" href="$_r_e_f_e_r_e_n_c_e_8h.html" title="Header file for torque reference handling." alt="" coords="314,261,427,288"/>
+<area shape="poly" id="edge13_Node000003_Node000011" title=" " alt="" coords="283,212,340,250,337,254,280,216"/>
+<area shape="rect" id="Node000013" href="$_m_o_t_o_r_8h.html" title="Header file for motor parameters." alt="" coords="528,336,608,363"/>
+<area shape="poly" id="edge19_Node000003_Node000013" title=" " alt="" coords="311,211,373,231,440,259,495,291,542,324,539,329,493,296,437,264,371,236,309,216"/>
+<area shape="rect" id="Node000014" href="$_p_w_m_8h.html" title="Header file for controlling PWM output." alt="" coords="155,261,221,288"/>
+<area shape="poly" id="edge20_Node000003_Node000014" title=" " alt="" coords="251,216,213,253,210,249,248,212"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="28,411,145,437"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="51,289,44,322,43,342,46,362,55,380,66,397,62,400,50,383,41,363,38,343,39,322,46,288"/>
+<area shape="rect" id="Node000006" href="$main_8h.html" title=": Header for main.c file. This file contains the common defines of the application." alt="" coords="56,336,117,363"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="61,287,77,321,72,323,57,290"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="85,485,160,512"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="47,290,30,318,15,356,8,397,11,417,18,436,42,461,72,479,69,484,38,466,14,439,5,419,3,397,10,354,26,316,42,287"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="89,363,89,395,84,395,84,363"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="313,485,377,512"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="272,362,333,470,328,473,267,364"/>
+<area shape="rect" id="Node000010" href="$_e_r_r_o_r_s_8h.html" title=" " alt="" coords="195,411,282,437"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="261,364,250,397,245,395,256,362"/>
+<area shape="poly" id="edge11_Node000010_Node000007" title=" " alt="" coords="220,440,157,479,154,474,217,436"/>
+<area shape="poly" id="edge12_Node000010_Node000009" title=" " alt="" coords="259,436,315,474,312,478,256,440"/>
+<area shape="poly" id="edge17_Node000011_Node000008" title=" " alt="" coords="353,291,296,329,293,325,350,286"/>
+<area shape="poly" id="edge18_Node000011_Node000009" title=" " alt="" coords="372,289,351,470,346,470,366,288"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="408,336,504,363"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="387,287,432,324,428,328,384,291"/>
+<area shape="poly" id="edge15_Node000011_Node000013" title=" " alt="" coords="406,286,520,328,518,333,404,291"/>
+<area shape="poly" id="edge16_Node000013_Node000009" title=" " alt="" coords="550,365,378,479,375,474,547,361"/>
+<area shape="poly" id="edge21_Node000014_Node000005" title=" " alt="" coords="182,290,131,364,106,400,102,396,127,361,177,287"/>
+</map>

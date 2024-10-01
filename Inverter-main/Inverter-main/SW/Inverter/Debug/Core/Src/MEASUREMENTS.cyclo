@@ -1,0 +1,5 @@
+../Core/Src/MEASUREMENTS.c:60:6:get_currents_voltage	6
+../Core/Src/MEASUREMENTS.c:119:7:get_linear	1
+../Core/Src/MEASUREMENTS.c:143:6:get_idiq	1
+../Core/Src/MEASUREMENTS.c:166:7:get_temperature	1
+../Core/Src/MEASUREMENTS.c:181:6:calibrate_offsets	4

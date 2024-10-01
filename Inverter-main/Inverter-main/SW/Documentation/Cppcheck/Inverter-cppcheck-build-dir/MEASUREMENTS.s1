@@ -1,0 +1,4 @@
+get_currents_voltage call:[get_idiq,get_linear]
+get_linear
+get_idiq
+get_temperature

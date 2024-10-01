@@ -1,0 +1,259 @@
+\doxysection{C\+:/\+Users/dwegg/\+Desktop/\+Inverter/\+SW/\+Inverter/\+Core/\+Inc/\+INVERTER.h File Reference}
+\hypertarget{_i_n_v_e_r_t_e_r_8h}{}\label{_i_n_v_e_r_t_e_r_8h}\index{C:/Users/dwegg/Desktop/Inverter/SW/Inverter/Core/Inc/INVERTER.h@{C:/Users/dwegg/Desktop/Inverter/SW/Inverter/Core/Inc/INVERTER.h}}
+
+
+Header file for the inverter struct and extern variables.  
+
+
+{\ttfamily \#include "{}PCB\+\_\+\+IO.\+h"{}}\newline
+{\ttfamily \#include "{}MEASUREMENTS.\+h"{}}\newline
+{\ttfamily \#include "{}REFERENCE.\+h"{}}\newline
+{\ttfamily \#include "{}MOTOR.\+h"{}}\newline
+{\ttfamily \#include "{}PWM.\+h"{}}\newline
+Include dependency graph for INVERTER.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_i_n_v_e_r_t_e_r_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_i_n_v_e_r_t_e_r_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_inverter_struct}{Inverter\+Struct}}
+\begin{DoxyCompactList}\small\item\em Inverter structure. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_i_n_v_e_r_t_e_r_8h_aaade3232ef08cf18b4f3a20a0a2c6fb6}{TS}}~0.\+000025
+\item 
+\#define \mbox{\hyperlink{_i_n_v_e_r_t_e_r_8h_a943f07034774ef1261d62cd0d3d1fec9}{DT}}~0.\+0000005
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{_i_n_v_e_r_t_e_r_8h_a3dfb1164df31bf0c9b6476f888fd5311}{Inverter\+State}} \{ \mbox{\hyperlink{_i_n_v_e_r_t_e_r_8h_a3dfb1164df31bf0c9b6476f888fd5311a5a425be53774c4b4e59e440ab2369e8e}{INV\+\_\+\+STATE\+\_\+\+IDLE}}
+, \mbox{\hyperlink{_i_n_v_e_r_t_e_r_8h_a3dfb1164df31bf0c9b6476f888fd5311a3bffb8c0f8030eb6d38dac2a9b1e4edd}{INV\+\_\+\+STATE\+\_\+\+STARTUP}}
+, \mbox{\hyperlink{_i_n_v_e_r_t_e_r_8h_a3dfb1164df31bf0c9b6476f888fd5311ac7be32525d0b9b1c5165d1371eebd7e7}{INV\+\_\+\+STATE\+\_\+\+RUNNING}}
+, \mbox{\hyperlink{_i_n_v_e_r_t_e_r_8h_a3dfb1164df31bf0c9b6476f888fd5311a4c6e89e99f6d2b3f6ff649c27cc73bc9}{INV\+\_\+\+STATE\+\_\+\+FAULT}}
+ \}
+\begin{DoxyCompactList}\small\item\em Enumeration of inverter operation states. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_i_n_v_e_r_t_e_r_8h_ac0938302bc5b498825f02779e027da1b}{initialize\+\_\+inverter}} (volatile \mbox{\hyperlink{struct_inverter_struct}{Inverter\+Struct}} \texorpdfstring{$\ast$}{*}inv, \mbox{\hyperlink{struct_l_e_d}{LED}} \texorpdfstring{$\ast$}{*}led, GPIO\+\_\+\+Type\+Def \texorpdfstring{$\ast$}{*}enable\+\_\+port, uint16\+\_\+t enable\+\_\+pin, TIM\+\_\+\+Handle\+Type\+Def \texorpdfstring{$\ast$}{*}htim, ADC\+\_\+\+Handle\+Type\+Def \texorpdfstring{$\ast$}{*}hadc, \mbox{\hyperlink{struct_motor_parameters}{Motor\+Parameters}} \texorpdfstring{$\ast$}{*}motor, volatile uint16\+\_\+t \texorpdfstring{$\ast$}{*}raw\+ADC)
+\begin{DoxyCompactList}\small\item\em Initialize the inverter. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_i_n_v_e_r_t_e_r_8h_aaf9fa53152a16edd10ae319f35703a1a}{init\+\_\+control\+\_\+loops}} (volatile \mbox{\hyperlink{struct_inverter_struct}{Inverter\+Struct}} \texorpdfstring{$\ast$}{*}inv, \mbox{\hyperlink{struct_motor_parameters}{Motor\+Parameters}} \texorpdfstring{$\ast$}{*}motor)
+\begin{DoxyCompactList}\small\item\em Initializes the id-\/iq current control PI controllers. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_i_n_v_e_r_t_e_r_8h_afe3274e9c519c01c68e15f0e72d38cd6}{enable\+\_\+control\+\_\+loops}} (volatile \mbox{\hyperlink{struct_inverter_struct}{Inverter\+Struct}} \texorpdfstring{$\ast$}{*}inv)
+\begin{DoxyCompactList}\small\item\em Enables the PI controllers. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_i_n_v_e_r_t_e_r_8h_a0bd71b47a4afa4ce63d04a6b0dbccd9e}{disable\+\_\+control\+\_\+loops}} (volatile \mbox{\hyperlink{struct_inverter_struct}{Inverter\+Struct}} \texorpdfstring{$\ast$}{*}inv)
+\begin{DoxyCompactList}\small\item\em Disables the PI controllers. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+volatile \mbox{\hyperlink{struct_inverter_struct}{Inverter\+Struct}} \mbox{\hyperlink{_i_n_v_e_r_t_e_r_8h_a9d4c83ba0ff9eff71fe732ddac1dc208}{inverter\+\_\+left}}
+\begin{DoxyCompactList}\small\item\em Left inverter structure. \end{DoxyCompactList}\item 
+volatile \mbox{\hyperlink{struct_inverter_struct}{Inverter\+Struct}} \mbox{\hyperlink{_i_n_v_e_r_t_e_r_8h_a9a1270f4b4f50328b300e5fb98dee476}{inverter\+\_\+right}}
+\begin{DoxyCompactList}\small\item\em Right inverter structure. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Header file for the inverter struct and extern variables. 
+
+\begin{DoxyAttention}{Attention}
+
+\end{DoxyAttention}
+Copyright (c) 2024 David Redondo (@dweggg on Git\+Hub). All rights reserved.
+
+This software is licensed under the Attribution-\/\+Non\+Commercial-\/\+Share\+Alike 4.\+0 International (CC BY-\/\+NC-\/\+SA 4.\+0) license. For more information, see\+: \href{https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode}{\texttt{ https\+://creativecommons.\+org/licenses/by-\/nc-\/sa/4.\+0/legalcode}} 
+
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{_i_n_v_e_r_t_e_r_8h_a943f07034774ef1261d62cd0d3d1fec9}\label{_i_n_v_e_r_t_e_r_8h_a943f07034774ef1261d62cd0d3d1fec9} 
+\index{INVERTER.h@{INVERTER.h}!DT@{DT}}
+\index{DT@{DT}!INVERTER.h@{INVERTER.h}}
+\doxysubsubsection{\texorpdfstring{DT}{DT}}
+{\footnotesize\ttfamily \#define DT~0.\+0000005}
+
+Dead time in seconds (500 ns), time in which both top and bottom transistors are open \Hypertarget{_i_n_v_e_r_t_e_r_8h_aaade3232ef08cf18b4f3a20a0a2c6fb6}\label{_i_n_v_e_r_t_e_r_8h_aaade3232ef08cf18b4f3a20a0a2c6fb6} 
+\index{INVERTER.h@{INVERTER.h}!TS@{TS}}
+\index{TS@{TS}!INVERTER.h@{INVERTER.h}}
+\doxysubsubsection{\texorpdfstring{TS}{TS}}
+{\footnotesize\ttfamily \#define TS~0.\+000025}
+
+Switching time in seconds (25 us), inverse of the switching frequency of 40 k\+Hz 
+
+\doxysubsection{Enumeration Type Documentation}
+\Hypertarget{_i_n_v_e_r_t_e_r_8h_a3dfb1164df31bf0c9b6476f888fd5311}\label{_i_n_v_e_r_t_e_r_8h_a3dfb1164df31bf0c9b6476f888fd5311} 
+\index{INVERTER.h@{INVERTER.h}!InverterState@{InverterState}}
+\index{InverterState@{InverterState}!INVERTER.h@{INVERTER.h}}
+\doxysubsubsection{\texorpdfstring{InverterState}{InverterState}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{_i_n_v_e_r_t_e_r_8h_a3dfb1164df31bf0c9b6476f888fd5311}{Inverter\+State}}}
+
+
+
+Enumeration of inverter operation states. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{INV\_STATE\_IDLE@{INV\_STATE\_IDLE}!INVERTER.h@{INVERTER.h}}\index{INVERTER.h@{INVERTER.h}!INV\_STATE\_IDLE@{INV\_STATE\_IDLE}}}\Hypertarget{_i_n_v_e_r_t_e_r_8h_a3dfb1164df31bf0c9b6476f888fd5311a5a425be53774c4b4e59e440ab2369e8e}\label{_i_n_v_e_r_t_e_r_8h_a3dfb1164df31bf0c9b6476f888fd5311a5a425be53774c4b4e59e440ab2369e8e} 
+INV\+\_\+\+STATE\+\_\+\+IDLE&Inverter idle state \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{INV\_STATE\_STARTUP@{INV\_STATE\_STARTUP}!INVERTER.h@{INVERTER.h}}\index{INVERTER.h@{INVERTER.h}!INV\_STATE\_STARTUP@{INV\_STATE\_STARTUP}}}\Hypertarget{_i_n_v_e_r_t_e_r_8h_a3dfb1164df31bf0c9b6476f888fd5311a3bffb8c0f8030eb6d38dac2a9b1e4edd}\label{_i_n_v_e_r_t_e_r_8h_a3dfb1164df31bf0c9b6476f888fd5311a3bffb8c0f8030eb6d38dac2a9b1e4edd} 
+INV\+\_\+\+STATE\+\_\+\+STARTUP&Inverter startup state \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{INV\_STATE\_RUNNING@{INV\_STATE\_RUNNING}!INVERTER.h@{INVERTER.h}}\index{INVERTER.h@{INVERTER.h}!INV\_STATE\_RUNNING@{INV\_STATE\_RUNNING}}}\Hypertarget{_i_n_v_e_r_t_e_r_8h_a3dfb1164df31bf0c9b6476f888fd5311ac7be32525d0b9b1c5165d1371eebd7e7}\label{_i_n_v_e_r_t_e_r_8h_a3dfb1164df31bf0c9b6476f888fd5311ac7be32525d0b9b1c5165d1371eebd7e7} 
+INV\+\_\+\+STATE\+\_\+\+RUNNING&Inverter running state \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{INV\_STATE\_FAULT@{INV\_STATE\_FAULT}!INVERTER.h@{INVERTER.h}}\index{INVERTER.h@{INVERTER.h}!INV\_STATE\_FAULT@{INV\_STATE\_FAULT}}}\Hypertarget{_i_n_v_e_r_t_e_r_8h_a3dfb1164df31bf0c9b6476f888fd5311a4c6e89e99f6d2b3f6ff649c27cc73bc9}\label{_i_n_v_e_r_t_e_r_8h_a3dfb1164df31bf0c9b6476f888fd5311a4c6e89e99f6d2b3f6ff649c27cc73bc9} 
+INV\+\_\+\+STATE\+\_\+\+FAULT&Inverter fault state \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{_i_n_v_e_r_t_e_r_8h_a0bd71b47a4afa4ce63d04a6b0dbccd9e}\label{_i_n_v_e_r_t_e_r_8h_a0bd71b47a4afa4ce63d04a6b0dbccd9e} 
+\index{INVERTER.h@{INVERTER.h}!disable\_control\_loops@{disable\_control\_loops}}
+\index{disable\_control\_loops@{disable\_control\_loops}!INVERTER.h@{INVERTER.h}}
+\doxysubsubsection{\texorpdfstring{disable\_control\_loops()}{disable\_control\_loops()}}
+{\footnotesize\ttfamily void disable\+\_\+control\+\_\+loops (\begin{DoxyParamCaption}\item[{volatile \mbox{\hyperlink{struct_inverter_struct}{Inverter\+Struct}} \texorpdfstring{$\ast$}{*}}]{inv }\end{DoxyParamCaption})}
+
+
+
+Disables the PI controllers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em inv} & Pointer to the inverter structure. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{_i_n_v_e_r_t_e_r_8h_afe3274e9c519c01c68e15f0e72d38cd6}\label{_i_n_v_e_r_t_e_r_8h_afe3274e9c519c01c68e15f0e72d38cd6} 
+\index{INVERTER.h@{INVERTER.h}!enable\_control\_loops@{enable\_control\_loops}}
+\index{enable\_control\_loops@{enable\_control\_loops}!INVERTER.h@{INVERTER.h}}
+\doxysubsubsection{\texorpdfstring{enable\_control\_loops()}{enable\_control\_loops()}}
+{\footnotesize\ttfamily void enable\+\_\+control\+\_\+loops (\begin{DoxyParamCaption}\item[{volatile \mbox{\hyperlink{struct_inverter_struct}{Inverter\+Struct}} \texorpdfstring{$\ast$}{*}}]{inv }\end{DoxyParamCaption})}
+
+
+
+Enables the PI controllers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em inv} & Pointer to the inverter structure. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{_i_n_v_e_r_t_e_r_8h_aaf9fa53152a16edd10ae319f35703a1a}\label{_i_n_v_e_r_t_e_r_8h_aaf9fa53152a16edd10ae319f35703a1a} 
+\index{INVERTER.h@{INVERTER.h}!init\_control\_loops@{init\_control\_loops}}
+\index{init\_control\_loops@{init\_control\_loops}!INVERTER.h@{INVERTER.h}}
+\doxysubsubsection{\texorpdfstring{init\_control\_loops()}{init\_control\_loops()}}
+{\footnotesize\ttfamily void init\+\_\+control\+\_\+loops (\begin{DoxyParamCaption}\item[{volatile \mbox{\hyperlink{struct_inverter_struct}{Inverter\+Struct}} \texorpdfstring{$\ast$}{*}}]{inv,  }\item[{\mbox{\hyperlink{struct_motor_parameters}{Motor\+Parameters}} \texorpdfstring{$\ast$}{*}}]{motor }\end{DoxyParamCaption})}
+
+
+
+Initializes the id-\/iq current control PI controllers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em inv} & Pointer to the inverter structure.\\
+\hline
+\end{DoxyParams}
+Initializes the id-\/iq current control PI controllers.
+
+
+\begin{DoxyParams}{Parameters}
+{\em inv} & Pointer to the inverter structure. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_i_n_v_e_r_t_e_r_8h_aaf9fa53152a16edd10ae319f35703a1a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_i_n_v_e_r_t_e_r_8h_ac0938302bc5b498825f02779e027da1b}\label{_i_n_v_e_r_t_e_r_8h_ac0938302bc5b498825f02779e027da1b} 
+\index{INVERTER.h@{INVERTER.h}!initialize\_inverter@{initialize\_inverter}}
+\index{initialize\_inverter@{initialize\_inverter}!INVERTER.h@{INVERTER.h}}
+\doxysubsubsection{\texorpdfstring{initialize\_inverter()}{initialize\_inverter()}}
+{\footnotesize\ttfamily void initialize\+\_\+inverter (\begin{DoxyParamCaption}\item[{volatile \mbox{\hyperlink{struct_inverter_struct}{Inverter\+Struct}} \texorpdfstring{$\ast$}{*}}]{inv,  }\item[{\mbox{\hyperlink{struct_l_e_d}{LED}} \texorpdfstring{$\ast$}{*}}]{led,  }\item[{GPIO\+\_\+\+Type\+Def \texorpdfstring{$\ast$}{*}}]{enable\+\_\+port,  }\item[{uint16\+\_\+t}]{enable\+\_\+pin,  }\item[{TIM\+\_\+\+Handle\+Type\+Def \texorpdfstring{$\ast$}{*}}]{htim,  }\item[{ADC\+\_\+\+Handle\+Type\+Def \texorpdfstring{$\ast$}{*}}]{hadc,  }\item[{\mbox{\hyperlink{struct_motor_parameters}{Motor\+Parameters}} \texorpdfstring{$\ast$}{*}}]{motor,  }\item[{volatile uint16\+\_\+t \texorpdfstring{$\ast$}{*}}]{raw\+ADC }\end{DoxyParamCaption})}
+
+
+
+Initialize the inverter. 
+
+This function initializes the inverter structure with the specified \doxylink{struct_l_e_d}{LED}, GPIO port, and pin.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ out}}  & {\em inv} & Pointer to the inverter structure. \\
+\hline
+\mbox{\texttt{ in}}  & {\em led} & Pointer to the \doxylink{struct_l_e_d}{LED} structure. \\
+\hline
+\mbox{\texttt{ in}}  & {\em enable\+\_\+port} & Pointer to the GPIO port for enabling/disabling the inverter. \\
+\hline
+\mbox{\texttt{ in}}  & {\em enable\+\_\+pin} & Pin number for enabling/disabling the inverter. \\
+\hline
+\mbox{\texttt{ in}}  & {\em htim} & Timer peripheral for the PWM output. \\
+\hline
+\mbox{\texttt{ in}}  & {\em hadc} & ADC peripheral for the current phase current and DC voltage sensing. \\
+\hline
+\mbox{\texttt{ in}}  & {\em motor} & \doxylink{struct_motor_parameters}{Motor\+Parameters} struct. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{_i_n_v_e_r_t_e_r_8h_ac0938302bc5b498825f02779e027da1b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{_i_n_v_e_r_t_e_r_8h_ac0938302bc5b498825f02779e027da1b_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{_i_n_v_e_r_t_e_r_8h_a9d4c83ba0ff9eff71fe732ddac1dc208}\label{_i_n_v_e_r_t_e_r_8h_a9d4c83ba0ff9eff71fe732ddac1dc208} 
+\index{INVERTER.h@{INVERTER.h}!inverter\_left@{inverter\_left}}
+\index{inverter\_left@{inverter\_left}!INVERTER.h@{INVERTER.h}}
+\doxysubsubsection{\texorpdfstring{inverter\_left}{inverter\_left}}
+{\footnotesize\ttfamily volatile \mbox{\hyperlink{struct_inverter_struct}{Inverter\+Struct}} inverter\+\_\+left\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Left inverter structure. 
+
+External declaration of the left inverter structure
+
+External declaration of the left inverter structure. \Hypertarget{_i_n_v_e_r_t_e_r_8h_a9a1270f4b4f50328b300e5fb98dee476}\label{_i_n_v_e_r_t_e_r_8h_a9a1270f4b4f50328b300e5fb98dee476} 
+\index{INVERTER.h@{INVERTER.h}!inverter\_right@{inverter\_right}}
+\index{inverter\_right@{inverter\_right}!INVERTER.h@{INVERTER.h}}
+\doxysubsubsection{\texorpdfstring{inverter\_right}{inverter\_right}}
+{\footnotesize\ttfamily volatile \mbox{\hyperlink{struct_inverter_struct}{Inverter\+Struct}} inverter\+\_\+right\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Right inverter structure. 
+
+External declaration of the right inverter structure
+
+External declaration of the right inverter structure. 

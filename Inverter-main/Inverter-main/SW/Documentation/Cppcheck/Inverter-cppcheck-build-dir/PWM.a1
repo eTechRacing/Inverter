@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="3404126447889303644">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;stm32f7xx_hal.h&quot; not found." verbose="Include file: &quot;stm32f7xx_hal.h&quot; not found.">
+            <location file="C:\Users\dwegg\Desktop\Inverter\SW\Inverter\Core\Inc\PWM.h" line="23" column="0"/>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/dwegg/Desktop/Inverter/SW/Inverter/Core/Inc/PWM.h:41:6" my-argnr="1" my-argname="htim" file="C:/Users/dwegg/Desktop/Inverter/SW/Inverter/Core/Src/PWM.c" line="33" col="2" value="0"/>
+    <unsafe-usage my-id="C:/Users/dwegg/Desktop/Inverter/SW/Inverter/Core/Inc/PWM.h:50:6" my-argnr="1" my-argname="htim" file="C:/Users/dwegg/Desktop/Inverter/SW/Inverter/Core/Src/PWM.c" line="56" col="2" value="0"/>
+    <unsafe-usage my-id="C:/Users/dwegg/Desktop/Inverter/SW/Inverter/Core/Inc/PWM.h:61:6" my-argnr="1" my-argname="htim" file="C:/Users/dwegg/Desktop/Inverter/SW/Inverter/Core/Src/PWM.c" line="79" col="2" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="enable_PWM" lineNumber="29"/>
+    <functiondecl functionName="disable_PWM" lineNumber="53"/>
+    <functiondecl functionName="update_PWM" lineNumber="76"/>
+  </FileInfo>
+</analyzerinfo>

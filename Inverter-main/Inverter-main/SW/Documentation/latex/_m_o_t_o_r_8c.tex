@@ -1,0 +1,154 @@
+\doxysection{C\+:/\+Users/dwegg/\+Desktop/\+Inverter/\+SW/\+Inverter/\+Core/\+Src/\+MOTOR.c File Reference}
+\hypertarget{_m_o_t_o_r_8c}{}\label{_m_o_t_o_r_8c}\index{C:/Users/dwegg/Desktop/Inverter/SW/Inverter/Core/Src/MOTOR.c@{C:/Users/dwegg/Desktop/Inverter/SW/Inverter/Core/Src/MOTOR.c}}
+
+
+Source file for motor parameters.  
+
+
+{\ttfamily \#include "{}MOTOR.\+h"{}}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+Include dependency graph for MOTOR.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{_m_o_t_o_r_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_m_o_t_o_r_8c_a36a9b4ae42496f3d3030e25e8763d0ff}{precalculate\+\_\+motor\+\_\+constants}} (\mbox{\hyperlink{struct_motor_parameters}{Motor\+Parameters}} \texorpdfstring{$\ast$}{*}motor)
+\begin{DoxyCompactList}\small\item\em Precomputes the constants for a motor and updates the \doxylink{struct_motor_parameters}{Motor\+Parameters} structure. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_m_o_t_o_r_8c_aac2006b5fcd23b70efa190f9239e50a1}{check\+\_\+motor\+\_\+parameters}} (\mbox{\hyperlink{struct_motor_parameters}{Motor\+Parameters}} \texorpdfstring{$\ast$}{*}motor, float Ts)
+\begin{DoxyCompactList}\small\item\em Perform a parameter check and correct possible errors. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_motor_parameters}{Motor\+Parameters}} \mbox{\hyperlink{_m_o_t_o_r_8c_ac1fb3830c20e54f8980f91b3b8b19a48}{motor\+\_\+left}}
+\begin{DoxyCompactList}\small\item\em Left motor parameters. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_motor_parameters}{Motor\+Parameters}} \mbox{\hyperlink{_m_o_t_o_r_8c_aa30800b62b841d0b0b3cac4df1841afa}{motor\+\_\+right}}
+\begin{DoxyCompactList}\small\item\em Right motor parameters. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Source file for motor parameters. 
+
+\begin{DoxyAttention}{Attention}
+
+\end{DoxyAttention}
+Copyright (c) 2024 David Redondo (@dweggg on Git\+Hub). All rights reserved.
+
+This software is licensed under the Attribution-\/\+Non\+Commercial-\/\+Share\+Alike 4.\+0 International (CC BY-\/\+NC-\/\+SA 4.\+0) license. For more information, see\+: \href{https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode}{\texttt{ https\+://creativecommons.\+org/licenses/by-\/nc-\/sa/4.\+0/legalcode}} 
+
+\doxysubsection{Function Documentation}
+\Hypertarget{_m_o_t_o_r_8c_aac2006b5fcd23b70efa190f9239e50a1}\label{_m_o_t_o_r_8c_aac2006b5fcd23b70efa190f9239e50a1} 
+\index{MOTOR.c@{MOTOR.c}!check\_motor\_parameters@{check\_motor\_parameters}}
+\index{check\_motor\_parameters@{check\_motor\_parameters}!MOTOR.c@{MOTOR.c}}
+\doxysubsubsection{\texorpdfstring{check\_motor\_parameters()}{check\_motor\_parameters()}}
+{\footnotesize\ttfamily int check\+\_\+motor\+\_\+parameters (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_motor_parameters}{Motor\+Parameters}} \texorpdfstring{$\ast$}{*}}]{motor,  }\item[{float}]{Ts }\end{DoxyParamCaption})}
+
+
+
+Perform a parameter check and correct possible errors. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em motor} & Pointer to the \doxylink{struct_motor_parameters}{Motor\+Parameters} struct. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em OK} & 0 if an error occurred, 1 if successful. \\
+\hline
+\end{DoxyRetVals}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_m_o_t_o_r_8c_aac2006b5fcd23b70efa190f9239e50a1_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_m_o_t_o_r_8c_a36a9b4ae42496f3d3030e25e8763d0ff}\label{_m_o_t_o_r_8c_a36a9b4ae42496f3d3030e25e8763d0ff} 
+\index{MOTOR.c@{MOTOR.c}!precalculate\_motor\_constants@{precalculate\_motor\_constants}}
+\index{precalculate\_motor\_constants@{precalculate\_motor\_constants}!MOTOR.c@{MOTOR.c}}
+\doxysubsubsection{\texorpdfstring{precalculate\_motor\_constants()}{precalculate\_motor\_constants()}}
+{\footnotesize\ttfamily void precalculate\+\_\+motor\+\_\+constants (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_motor_parameters}{Motor\+Parameters}} \texorpdfstring{$\ast$}{*}}]{motor }\end{DoxyParamCaption})}
+
+
+
+Precomputes the constants for a motor and updates the \doxylink{struct_motor_parameters}{Motor\+Parameters} structure. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em motor} & \mbox{[}in, out\mbox{]} Pointer to the motor parameters structure \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_m_o_t_o_r_8c_a36a9b4ae42496f3d3030e25e8763d0ff_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{_m_o_t_o_r_8c_ac1fb3830c20e54f8980f91b3b8b19a48}\label{_m_o_t_o_r_8c_ac1fb3830c20e54f8980f91b3b8b19a48} 
+\index{MOTOR.c@{MOTOR.c}!motor\_left@{motor\_left}}
+\index{motor\_left@{motor\_left}!MOTOR.c@{MOTOR.c}}
+\doxysubsubsection{\texorpdfstring{motor\_left}{motor\_left}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_motor_parameters}{Motor\+Parameters}} motor\+\_\+left}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{\ \ \ \ .Ld\ =\ 0.00291F,}
+\DoxyCodeLine{\ \ \ \ .Lq\ =\ 0.00291F,}
+\DoxyCodeLine{\ \ \ \ .Rs\ =\ 1.95F,}
+\DoxyCodeLine{\ \ \ \ .lambda\ =\ 0.13391F,}
+\DoxyCodeLine{\ \ \ \ .pp\ =\ 4,}
+\DoxyCodeLine{\ \ \ \ .J\ =\ 0.00093F,}
+\DoxyCodeLine{\ \ \ \ .b\ =\ 0.632653F,}
+\DoxyCodeLine{\ \ \ \ .torqueMax\ =\ 10.0F,}
+\DoxyCodeLine{\ \ \ \ .dTorqueMax\ =\ 1.0F,}
+\DoxyCodeLine{\ \ \ \ .speedMax\_RPM\ =\ 8500.0F,}
+\DoxyCodeLine{\ \ \ \ .iMax\ =\ 60.0F,}
+\DoxyCodeLine{\ \ \ \ .vDCMax\ =\ 450.0F}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+Left motor parameters. 
+
+\Hypertarget{_m_o_t_o_r_8c_aa30800b62b841d0b0b3cac4df1841afa}\label{_m_o_t_o_r_8c_aa30800b62b841d0b0b3cac4df1841afa} 
+\index{MOTOR.c@{MOTOR.c}!motor\_right@{motor\_right}}
+\index{motor\_right@{motor\_right}!MOTOR.c@{MOTOR.c}}
+\doxysubsubsection{\texorpdfstring{motor\_right}{motor\_right}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_motor_parameters}{Motor\+Parameters}} motor\+\_\+right}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{\ \ \ \ .Ld\ =\ 0.00291F,}
+\DoxyCodeLine{\ \ \ \ .Lq\ =\ 0.00291F,}
+\DoxyCodeLine{\ \ \ \ .Rs\ =\ 1.95F,}
+\DoxyCodeLine{\ \ \ \ .lambda\ =\ 0.13391F,}
+\DoxyCodeLine{\ \ \ \ .pp\ =\ 4,}
+\DoxyCodeLine{\ \ \ \ .J\ =\ 0.00093F,}
+\DoxyCodeLine{\ \ \ \ .b\ =\ 0.632653F,}
+\DoxyCodeLine{\ \ \ \ .torqueMax\ =\ 10.0F,}
+\DoxyCodeLine{\ \ \ \ .dTorqueMax\ =\ 1.0F,}
+\DoxyCodeLine{\ \ \ \ .speedMax\_RPM\ =\ 8500.0F,}
+\DoxyCodeLine{\ \ \ \ .iMax\ =\ 60.0F,}
+\DoxyCodeLine{\ \ \ \ .vDCMax\ =\ 450.0F}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+Right motor parameters. 
+
